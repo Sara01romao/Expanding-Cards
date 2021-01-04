@@ -26,6 +26,7 @@
 .container{
   display: flex;
   width: 90vw;
+  margin: 30px auto;
 }
 
 
@@ -38,7 +39,7 @@
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  flex: 0.5; /*largura para cada div*/
+  flex: 0.8; /*largura para cada div*/
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
@@ -78,7 +79,8 @@
 
 /*define o tamanho e o tipo de display*/
 .container2{
-  margin-top: 50px;
+  margin: 50px auto;
+
  
   width: 90vw;
   border: 1px solid red;
@@ -109,7 +111,7 @@
 }
 
 .panel2.active2{
-  height: 30vh /*div ativa tem altura*/
+  height: 80vh; /*div ativa tem altura*/
 }
 
 .painel2.active2 h3{
