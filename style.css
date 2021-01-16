@@ -64,12 +64,12 @@
 }
 
 @media (max-width: 480px){
-  .container, .container2{
+  .container{
     width: 100vw;
   }
 
   .panel:nth-of-type(4),
-  .painel:nth-of-type(5){
+  .panel:nth-of-type(5){
     display: none;
   }
 }
@@ -87,19 +87,24 @@
 }
 
 .panel2{
-  background-size:100%;
+  
+  background-size: auto 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+ 
   height: 10vh; /* altura da div*/
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  max-width: 100%;
-  margin: 10px;
+  max-width: 95%;
+  margin: 10px auto;
   position: relative;
   transition: height 0.7s ease-in;
   border: 1px solid rgb(131, 133, 136);
 
 }
+
 
 .panel2 h3{
   font-size: 24px;
@@ -117,4 +122,22 @@
 .painel2.active2 h3{
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+@media (max-width: 1010px){
+  .container2{
+    width: 100vw;
+    height: auto;
+  }
+
+  
+}
+
+@media (min-width: 320px){
+  .container2{
+    width: 100vw;
+   
+  }
+
 }
